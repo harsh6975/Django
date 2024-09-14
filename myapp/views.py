@@ -10,3 +10,6 @@ def index(request):
 
 def about(reques):
     return HttpResponse("THis is my about page")
+
+def contact(request):
+    return render(request, 'contact.html')
