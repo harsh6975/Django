@@ -1,0 +1,13 @@
+To Open shell - python manage.py shell
+
+import model - from myapp.model import Contact
+
+View all objs - Contact.objects.all()
+
+get xth obj - Contact.objects.all()[x] 
+
+get info - Contact.objects.all()[x].name
+
+filter using any col - Contact.objects.filter(name="Harsh Sinha")
+
+filter using multi col and all true - Contact.objects.filter(name="Harsh Sinha", phone="234234234234")
